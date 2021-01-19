@@ -1,0 +1,101 @@
+@import url(https://fonts.googleapis.com/css?family=Anton);
+body {
+    font-family: 'Anton', sans-serif;
+    color: green;
+    background-color: lightblue;
+}
+
+.header {
+    font-size: 2rem;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.title {
+    float: left;
+    text-shadow: 1px 1px 2px green;
+    color: #000;
+}
+
+.score {
+    float: right;
+    text-shadow: 1px 1px 2px green;
+    color: #000;
+}
+
+.score-count {}
+
+.board {
+    clear: both;
+    padding-top: 20px;
+}
+
+.controls {
+    clear: both;
+    text-align: center;
+    font-size: 2rem;
+    padding-top: 50px;
+}
+
+.button {
+    color: #000;
+    cursor: pointer;
+    border: 2px solid #000;
+    box-shadow: 1px 1px 3px #000;
+    border-radius: 5px;
+    padding: 0px 10px;
+    transition: all 0.2s ease;
+    background-color: green;
+}
+
+.button:active {
+    box-shadow: 1px 1px 3px #000 inset;
+}
+
+.row {
+    clear: both;
+    width: 500px;
+    margin: 0px auto;
+}
+
+.cell {
+    float: left;
+    width: 100px;
+    height: 100px;
+    background-color: ;
+    text-align: center;
+    border-bottom: 5px solid blue;
+    overflow: hidden;
+}
+
+.target {
+    font-size: 4.5rem;
+    margin-top: 101px;
+    padding-top: 5px;
+}
+
+.target-up {
+    margin-top: 0px;
+}
+
+.hit {
+    color: red;
+}
+
+.error {
+    text-align: center;
+    color: red;
+    font-weight: bold;
+    font-size: 1.5rem;
+    display: none;
+    padding-top: 20px;
+}
+
+.error-container {
+    min-height: 100px;
+}
+
+body,
+a:hover {
+    cursor: url(../cursors/aim.cur), progress !important;
+}
